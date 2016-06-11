@@ -26,14 +26,14 @@ $black: #333;
 .navbar-inverse .navbar-nav>li>a:hover {
   transition: .3s;
   color: $black;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $red;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: transparent;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $red;
   color: $black;
 }
 
@@ -41,17 +41,13 @@ $black: #333;
   background: url('../img/bg.jpg') no-repeat center center scroll;
 }
 
-.navbar-collapse {
-  border-bottom: 1px solid $black;
-}
-
 .footer {
   position: absolute;
-  margin-top: 60px;
+  padding-top: 60px;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 40px;
+  height: 100px;
   text-align: center;
 }
 
@@ -69,7 +65,7 @@ body {
   font-size: 16px;
   letter-spacing: 2px;
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 h3 {
@@ -89,23 +85,23 @@ hr {
   height: 25px;
 }
 
-.jumbotron-logo-slogan {
-  text-align: center;
-  padding: 200px 0 100px;
+.jumbotron-title {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 20px;
+  color: $red;
 }
 
-.jumbotron-logo {
-  img {
-    height: 130px;
-  }
+.jumbotron-logo-slogan {
+  text-align: center;
+  padding: 100px 0;
 }
 
 .jumbotron-slogan {
   letter-spacing: 4px;
   font-size: 22px;
-  padding-top: 20px;
 }
 
-.section {
-  padding: 20px 0;
+.content-wrapper {
+  padding: 48px 0;
 }
