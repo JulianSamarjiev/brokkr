@@ -8,7 +8,7 @@ $red: #993C40;
 $dark-green: #2D3718;
 $black: #333;
 
-// Overwrite Bootstrap
+// Bootstrap
 
 .navbar-inverse {
   background-color: transparent;
@@ -45,7 +45,22 @@ $black: #333;
   border-bottom: 1px solid $black;
 }
 
+.footer {
+  position: absolute;
+  margin-top: 60px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  text-align: center;
+}
+
 // General
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   color: $black;
@@ -53,16 +68,25 @@ body {
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 2px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 h3 {
   font-weight: 300;
+  color: $red;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $red, rgba(0, 0, 0, 0));
 }
 
 // Custom
 
 .nav-logo {
-  height: 30px;
+  height: 25px;
 }
 
 .jumbotron-logo-slogan {
