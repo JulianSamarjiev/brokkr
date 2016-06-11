@@ -13,6 +13,7 @@ $black: #333;
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
+  transition: all 0.3s;
 }
 
 .navbar-inverse .navbar-nav>li>a,
@@ -60,9 +61,27 @@ h3 {
 
 // Custom
 
+.nav-logo {
+  height: 30px;
+}
+
 .jumbotron-logo-slogan {
   text-align: center;
-  font-size: 28px;
   padding: 200px 0 100px;
+}
+
+.jumbotron-logo {
+  img {
+    height: 130px;
+  }
+}
+
+.jumbotron-slogan {
   letter-spacing: 4px;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.section {
+  padding: 20px 0;
 }
