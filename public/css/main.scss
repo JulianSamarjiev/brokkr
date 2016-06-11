@@ -1,0 +1,68 @@
+// Color variables
+
+$light-grey: #F3F3F3;
+$grey: #B7B4AC;
+$blue: #94B0C7;
+$green: #7B8666;
+$red: #993C40;
+$dark-green: #2D3718;
+$black: #333;
+
+// Overwrite Bootstrap
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>li>a {
+  color: $black;
+  padding: 15px 15px 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  transition: .3s;
+  color: $black;
+  border-bottom: 1px solid $black;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  border-bottom: 1px solid $black;
+  color: $black;
+}
+
+.jumbotron {
+  background: url('../img/bg.jpg') no-repeat center center scroll;
+}
+
+.navbar-collapse {
+  border-bottom: 1px solid $black;
+}
+
+// General
+
+body {
+  color: $black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+// Custom
+
+.jumbotron-logo-slogan {
+  text-align: center;
+  font-size: 28px;
+  padding: 200px 0 100px;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,45 @@
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent; }
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a {
+  color: #333;
+  padding: 15px 15px 5px; }
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  transition: .3s;
+  color: #333;
+  border-bottom: 1px solid #333; }
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  border-bottom: 1px solid #333;
+  color: #333; }
+
+.jumbotron {
+  background: url("../img/bg.jpg") no-repeat center center scroll; }
+
+.navbar-collapse {
+  border-bottom: 1px solid #333; }
+
+body {
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+h3 {
+  font-weight: 300; }
+
+.jumbotron-logo-slogan {
+  text-align: center;
+  font-size: 28px;
+  padding: 200px 0 100px;
+  letter-spacing: 4px; }
+
+/*# sourceMappingURL=main.css.map */
