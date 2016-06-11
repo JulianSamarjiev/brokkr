@@ -5,21 +5,21 @@
 
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
-  color: #333;
+  color: #333333;
   padding: 15px 15px 5px; }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
   transition: .3s;
-  color: #333;
-  border-bottom: 1px solid #993C40; }
+  color: #333333;
+  border-bottom: 1px solid #993c40; }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: transparent;
-  border-bottom: 1px solid #993C40;
-  color: #333; }
+  border-bottom: 1px solid #993c40;
+  color: #333333; }
 
 .jumbotron {
   background: url("../img/bg.jpg") no-repeat center center scroll; }
@@ -38,7 +38,7 @@ html {
   min-height: 100%; }
 
 body {
-  color: #333;
+  color: #333333;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -48,12 +48,12 @@ body {
 
 h3 {
   font-weight: 300;
-  color: #993C40; }
+  color: #993c40; }
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, transparent, #993C40, transparent); }
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #993c40, rgba(0, 0, 0, 0)); }
 
 .nav-logo {
   height: 25px; }
@@ -62,17 +62,36 @@ hr {
   font-size: 72px;
   font-weight: 700;
   letter-spacing: 20px;
-  color: #993C40; }
+  color: #993c40; }
 
 .jumbotron-logo-slogan {
   text-align: center;
   padding: 100px 0; }
 
-.jumbotron-slogan {
+h1.jumbotron-slogan {
   letter-spacing: 4px;
-  font-size: 22px; }
+  font-weight: 300;
+  font-size: 48px; }
 
 .content-wrapper {
   padding: 48px 0; }
 
-/*# sourceMappingURL=main.css.map */
+@media (max-width: 767px) {
+  #navbar {
+    background-color: #ffffff;
+    margin-right: 10px; }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333333; }
+
+  .navbar-inverse .navbar-toggle {
+    border: none; }
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:visited, .navbar-inverse .navbar-toggle:focus {
+      background-color: transparent; }
+
+  .jumbotron-title {
+    font-size: 42px;
+    letter-spacing: 5px; }
+
+  h1.jumbotron-slogan {
+    font-size: 24px; } }

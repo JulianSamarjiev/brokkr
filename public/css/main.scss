@@ -97,11 +97,40 @@ hr {
   padding: 100px 0;
 }
 
-.jumbotron-slogan {
+h1.jumbotron-slogan {
   letter-spacing: 4px;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 48px;
 }
 
 .content-wrapper {
   padding: 48px 0;
+}
+
+@media (max-width: 767px) {
+  #navbar {
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: $black;
+  }
+  .navbar-inverse {
+    .navbar-toggle {
+      border: none;
+      &:hover,
+      &:active,
+      &:visited,
+      &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+  .jumbotron-title {
+    font-size: 42px;
+    letter-spacing: 5px;
+  }
+  h1.jumbotron-slogan {
+    font-size: 24px;
+  }
 }
