@@ -24,7 +24,11 @@ $(function() {
     event.preventDefault();
 
     // Serialize the form data.
-    var formData = $(form).serialize();
+    var formData = {
+      name: $("#name").val(),
+      email: $("#email").val(),
+      message: $("#message").val()
+    };
     // Submit the form using AJAX.
     debugger;
     $.ajax({
