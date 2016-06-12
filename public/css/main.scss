@@ -79,6 +79,13 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $red, rgba(0, 0, 0, 0));
 }
 
+textarea {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 // Custom
 
 .nav-logo {
@@ -103,9 +110,12 @@ h1.jumbotron-slogan {
   font-size: 48px;
 }
 
-.content-wrapper {
-  padding: 48px 0;
+.jumbotron-heading {
+  text-align: center;
+  padding: 50px 0;
 }
+
+// Media queries
 
 @media (max-width: 767px) {
   #navbar {

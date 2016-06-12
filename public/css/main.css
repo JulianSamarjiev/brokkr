@@ -5,21 +5,21 @@
 
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
-  color: #333333;
+  color: #333;
   padding: 15px 15px 5px; }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
   transition: .3s;
-  color: #333333;
-  border-bottom: 1px solid #993c40; }
+  color: #333;
+  border-bottom: 1px solid #993C40; }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: transparent;
-  border-bottom: 1px solid #993c40;
-  color: #333333; }
+  border-bottom: 1px solid #993C40;
+  color: #333; }
 
 .jumbotron {
   background: url("../img/bg.jpg") no-repeat center center scroll; }
@@ -38,7 +38,7 @@ html {
   min-height: 100%; }
 
 body {
-  color: #333333;
+  color: #333;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -48,12 +48,18 @@ body {
 
 h3 {
   font-weight: 300;
-  color: #993c40; }
+  color: #993C40; }
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #993c40, rgba(0, 0, 0, 0)); }
+  background-image: linear-gradient(to right, transparent, #993C40, transparent); }
+
+textarea {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
 
 .nav-logo {
   height: 25px; }
@@ -62,7 +68,7 @@ hr {
   font-size: 72px;
   font-weight: 700;
   letter-spacing: 20px;
-  color: #993c40; }
+  color: #993C40; }
 
 .jumbotron-logo-slogan {
   text-align: center;
@@ -73,8 +79,9 @@ h1.jumbotron-slogan {
   font-weight: 300;
   font-size: 48px; }
 
-.content-wrapper {
-  padding: 48px 0; }
+.jumbotron-heading {
+  text-align: center;
+  padding: 50px 0; }
 
 @media (max-width: 767px) {
   #navbar {
@@ -82,7 +89,7 @@ h1.jumbotron-slogan {
     margin-right: 10px; }
 
   .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #333333; }
+    background-color: #333; }
 
   .navbar-inverse .navbar-toggle {
     border: none; }
@@ -95,3 +102,5 @@ h1.jumbotron-slogan {
 
   h1.jumbotron-slogan {
     font-size: 24px; } }
+
+/*# sourceMappingURL=main.css.map */
