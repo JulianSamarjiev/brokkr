@@ -1,11 +1,7 @@
 // Color variables
 
-$light-grey: #F3F3F3;
-$grey: #B7B4AC;
-$blue: #94B0C7;
-$green: #7B8666;
+$white: #FFF;
 $red: #993C40;
-$dark-green: #2D3718;
 $black: #333;
 
 // Bootstrap
@@ -14,9 +10,11 @@ $black: #333;
   background-color: transparent;
   border-color: transparent;
   transition: all 0.3s;
+  .navbar-collapse {
+    float: right;
+  }
 }
 
-.navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a {
   color: $black;
   padding: 15px 15px 5px;
@@ -38,7 +36,8 @@ $black: #333;
 }
 
 .jumbotron {
-  background: url('../img/bg.jpg') no-repeat center center scroll;
+  background: url('../img/bg_1.png') no-repeat center center scroll;
+  background-size: cover;
 }
 
 .footer {
@@ -66,6 +65,14 @@ body {
   letter-spacing: 2px;
   /* Margin bottom by footer height */
   margin-bottom: 100px;
+}
+
+a {
+  color: $red;
+  &:hover, :focus {
+    text-decoration: none;
+    color: darken($red, 20%);
+  }
 }
 
 h3 {
@@ -126,6 +133,31 @@ h1.jumbotron-slogan {
   margin: 10px 0 20px;
 }
 
+// Contact form success-error states
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
 // Media queries
 
 @media (max-width: 767px) {
@@ -145,6 +177,9 @@ h1.jumbotron-slogan {
       &:focus {
         background-color: transparent;
       }
+    }
+    .navbar-collapse {
+      float: none;
     }
   }
   .jumbotron-title {
