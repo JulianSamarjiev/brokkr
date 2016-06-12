@@ -89,6 +89,9 @@ h1.jumbotron-slogan {
   text-align: center;
   padding: 50px 0; }
 
+.icon-separate {
+  margin: 10px 0 20px; }
+
 @media (max-width: 767px) {
   #navbar {
     background-color: #ffffff;
