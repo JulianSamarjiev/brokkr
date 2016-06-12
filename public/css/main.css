@@ -5,24 +5,24 @@
 
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
-  color: #333;
+  color: #333333;
   padding: 15px 15px 5px; }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
   transition: .3s;
-  color: #333;
-  border-bottom: 1px solid #993C40; }
+  color: #333333;
+  border-bottom: 1px solid #993c40; }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
   background-color: transparent;
-  border-bottom: 1px solid #993C40;
-  color: #333; }
+  border-bottom: 1px solid #993c40;
+  color: #333333; }
 
 .jumbotron {
-  background: url("../img/bg.jpg") no-repeat center center scroll;
+  background: url("../img/bg_1.png") no-repeat center center scroll;
   background-size: cover; }
 
 .footer {
@@ -39,7 +39,7 @@ html {
   min-height: 100%; }
 
 body {
-  color: #333;
+  color: #333333;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -49,12 +49,12 @@ body {
 
 h3 {
   font-weight: 300;
-  color: #993C40; }
+  color: #993c40; }
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, transparent, #993C40, transparent); }
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #993c40, rgba(0, 0, 0, 0)); }
 
 textarea {
   width: 100%;
@@ -63,8 +63,8 @@ textarea {
   border-radius: 4px; }
 
 button[type=submit] {
-  background-color: #993C40;
-  border-color: #993C40; }
+  background-color: #993c40;
+  border-color: #993c40; }
   button[type=submit]:hover {
     background-color: #501f21; }
 
@@ -75,7 +75,7 @@ button[type=submit] {
   font-size: 72px;
   font-weight: 700;
   letter-spacing: 20px;
-  color: #993C40; }
+  color: #993c40; }
 
 .jumbotron-logo-slogan {
   text-align: center;
@@ -84,9 +84,7 @@ button[type=submit] {
 h1.jumbotron-slogan {
   letter-spacing: 4px;
   font-weight: 300;
-  font-size: 48px;
-  color: #FFF;
-  background: rgba(153, 60, 64, 0.5); }
+  font-size: 48px; }
 
 .jumbotron-heading {
   text-align: center;
@@ -123,7 +121,7 @@ h1.jumbotron-slogan {
     margin-right: 10px; }
 
   .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #333; }
+    background-color: #333333; }
 
   .navbar-inverse .navbar-toggle {
     border: none; }
@@ -136,5 +134,3 @@ h1.jumbotron-slogan {
 
   h1.jumbotron-slogan {
     font-size: 24px; } }
-
-/*# sourceMappingURL=main.css.map */

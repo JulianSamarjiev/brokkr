@@ -39,7 +39,7 @@ $white: #FFF;
 }
 
 .jumbotron {
-  background: url('../img/bg.jpg') no-repeat center center scroll;
+  background: url('../img/bg_1.png') no-repeat center center scroll;
   background-size: cover;
 }
 
@@ -117,8 +117,6 @@ h1.jumbotron-slogan {
   letter-spacing: 4px;
   font-weight: 300;
   font-size: 48px;
-  color: $white;
-  background: rgba(153, 60, 64, 0.5);
 }
 
 .jumbotron-heading {
