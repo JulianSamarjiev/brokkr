@@ -85,6 +85,13 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+button[type=submit] {
+  background-color: $red;
+  border-color: $red;
+  &:hover {
+    background-color: darken($red, 20%);
+  }
+}
 
 // Custom
 
