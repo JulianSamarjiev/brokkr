@@ -10,9 +10,11 @@ $black: #333;
   background-color: transparent;
   border-color: transparent;
   transition: all 0.3s;
+  .navbar-collapse {
+    float: right;
+  }
 }
 
-.navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a {
   color: $black;
   padding: 15px 15px 5px;
@@ -63,6 +65,14 @@ body {
   letter-spacing: 2px;
   /* Margin bottom by footer height */
   margin-bottom: 100px;
+}
+
+a {
+  color: $red;
+  &:hover, :focus {
+    text-decoration: none;
+    color: darken($red, 20%);
+  }
 }
 
 h3 {
@@ -167,6 +177,9 @@ h1.jumbotron-slogan {
       &:focus {
         background-color: transparent;
       }
+    }
+    .navbar-collapse {
+      float: none;
     }
   }
   .jumbotron-title {

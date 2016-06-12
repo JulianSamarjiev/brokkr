@@ -2,8 +2,9 @@
   background-color: transparent;
   border-color: transparent;
   transition: all 0.3s; }
+  .navbar-inverse .navbar-collapse {
+    float: right; }
 
-.navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > li > a {
   color: #333;
   padding: 15px 15px 5px; }
@@ -46,6 +47,12 @@ body {
   letter-spacing: 2px;
   /* Margin bottom by footer height */
   margin-bottom: 100px; }
+
+a {
+  color: #993C40; }
+  a:hover, a :focus {
+    text-decoration: none;
+    color: #501f21; }
 
 h3 {
   font-weight: 300;
@@ -127,6 +134,8 @@ h1.jumbotron-slogan {
     border: none; }
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:visited, .navbar-inverse .navbar-toggle:focus {
       background-color: transparent; }
+  .navbar-inverse .navbar-collapse {
+    float: none; }
 
   .jumbotron-title {
     font-size: 42px;
