@@ -7,7 +7,7 @@ $black: #333;
 // Bootstrap
 
 .navbar-inverse {
-  background-color: transparent;
+  background-color: rgba(255,255,255,.7);
   border-color: transparent;
   transition: all 0.3s;
   .navbar-collapse {
@@ -123,6 +123,7 @@ h1.jumbotron-slogan {
   letter-spacing: 4px;
   font-weight: 300;
   font-size: 48px;
+  color: $white;
 }
 
 .jumbotron-heading {
