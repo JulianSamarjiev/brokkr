@@ -108,6 +108,9 @@ h1.jumbotron-slogan {
   max-height: 50px;
   margin: 0 auto; }
 
+.carousel-item {
+  width: 100%; }
+
 .carousel-inner {
   height: 400px; }
 
