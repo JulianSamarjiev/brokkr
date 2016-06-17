@@ -81,6 +81,8 @@ h3 {
 }
 
 hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $red, rgba(0, 0, 0, 0));
@@ -133,6 +135,31 @@ h1.jumbotron-slogan {
 
 .icon-separate {
   margin: 10px 0 20px;
+}
+
+.partner-logo {
+  max-height: 50px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.glyphicon {
+  color: $red;
 }
 
 // Contact form success-error states
@@ -190,5 +217,8 @@ h1.jumbotron-slogan {
   }
   h1.jumbotron-slogan {
     font-size: 24px;
+  }
+  .partner-logo {
+    margin: 40px auto;
   }
 }

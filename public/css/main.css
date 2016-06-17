@@ -59,6 +59,8 @@ h3 {
   color: #993C40; }
 
 hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, transparent, #993C40, transparent); }
@@ -102,6 +104,25 @@ h1.jumbotron-slogan {
 .icon-separate {
   margin: 10px 0 20px; }
 
+.partner-logo {
+  max-height: 50px;
+  margin: 0 auto; }
+
+.carousel-item {
+  width: 100%; }
+
+.carousel-inner {
+  height: 400px; }
+
+.carousel-control.left {
+  background-image: none; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.glyphicon {
+  color: #993C40; }
+
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
@@ -144,6 +165,9 @@ h1.jumbotron-slogan {
     letter-spacing: 5px; }
 
   h1.jumbotron-slogan {
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  .partner-logo {
+    margin: 40px auto; } }
 
 /*# sourceMappingURL=main.css.map */
