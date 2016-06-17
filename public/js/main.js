@@ -11,6 +11,10 @@ $(document).ready(function() {
 
 });
 
+$('.carousel').carousel({
+  interval: false
+})
+
 $(function() {
   // Get the form.
   var form = $('#ajax-contact');
