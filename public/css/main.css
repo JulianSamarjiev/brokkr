@@ -123,6 +123,10 @@ h1.jumbotron-slogan {
 .glyphicon {
   color: #993C40; }
 
+.job-position h3:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
