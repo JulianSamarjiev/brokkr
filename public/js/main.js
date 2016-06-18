@@ -9,6 +9,11 @@ $(document).ready(function() {
     }
   });
 
+  // Toggle job positions
+  $(".job-position p").hide();
+  $(".job-position h3").click(function() {
+    $(this).siblings("p").slideToggle("fast");
+  });
 });
 
 $(function() {

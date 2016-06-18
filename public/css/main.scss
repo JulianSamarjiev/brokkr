@@ -162,6 +162,13 @@ h1.jumbotron-slogan {
   color: $red;
 }
 
+.job-position h3 {
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
 // Contact form success-error states
 .success {
   padding: 1em;
