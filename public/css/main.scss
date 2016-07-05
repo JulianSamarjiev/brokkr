@@ -17,7 +17,8 @@ $black: #333;
 
 .navbar-inverse .navbar-nav>li>a {
   color: $black;
-  padding: 15px 15px 5px;
+  padding: 15px 10px 5px;
+  font-size: 14px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
@@ -46,7 +47,7 @@ $black: #333;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 100px;
+  height: 90px;
   text-align: center;
 }
 
@@ -167,6 +168,10 @@ h1.jumbotron-slogan {
     cursor: pointer;
     text-decoration: underline;
   }
+}
+
+.copyright-credits {
+  font-size: 14px;
 }
 
 // Contact form success-error states
