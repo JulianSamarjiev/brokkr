@@ -7,7 +7,8 @@
 
 .navbar-inverse .navbar-nav > li > a {
   color: #333;
-  padding: 15px 15px 5px; }
+  padding: 15px 10px 5px;
+  font-size: 14px; }
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -32,7 +33,7 @@
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 100px;
+  height: 90px;
   text-align: center; }
 
 html {
@@ -126,6 +127,9 @@ h1.jumbotron-slogan {
 .job-position h3:hover {
   cursor: pointer;
   text-decoration: underline; }
+
+.copyright-credits {
+  font-size: 14px; }
 
 .success {
   padding: 1em;
