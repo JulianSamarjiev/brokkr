@@ -35,7 +35,6 @@ $(function() {
       message: $("#message").val()
     };
     // Submit the form using AJAX.
-    debugger;
     $.ajax({
       type: 'POST',
       url: $(form).attr('action'),
