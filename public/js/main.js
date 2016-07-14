@@ -14,6 +14,11 @@ $(document).ready(function() {
   $(".job-position h3").click(function() {
     $(this).siblings("p").slideToggle("fast");
   });
+
+  // Initialize gallery for project page
+  $('#aniimated-thumbnials').lightGallery({
+    thumbnail : true
+  });
 });
 
 $(function() {
