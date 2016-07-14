@@ -131,6 +131,14 @@ h1.jumbotron-slogan {
 .copyright-credits {
   font-size: 14px; }
 
+#aniimated-thumbnials {
+  margin-top: 100px;
+  text-align: center; }
+  #aniimated-thumbnials img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px; }
+
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
