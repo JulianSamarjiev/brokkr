@@ -9,16 +9,29 @@ $(document).ready(function() {
     }
   });
 
-  // Toggle job positions
-  $(".job-position p").hide();
-  $(".job-position h3").click(function() {
-    $(this).siblings("p").slideToggle("fast");
-  });
+  // Careers page
+  if (window.location.href.indexOf("careers.html") - 1) {
+    // Toggle job positions
+    $(".job-position p").hide();
+    $(".job-position h3").click(function() {
+      $(this).siblings("p").slideToggle();
+    });
+  }
 
-  // Initialize gallery for project page
-  $('#aniimated-thumbnials').lightGallery({
-    thumbnail : true
-  });
+  // Projects page
+  if (window.location.href.indexOf("projects.html") - 1) {
+    // Initialize gallery
+    $('#aniimated-thumbnials').lightGallery({
+      thumbnail : true
+    });
+    // Disable carousel on smaller viewports
+    if ($(window).width() < 767) {
+      $('.carousel-control').hide();
+      $('.carousel').carousel({
+        interval: false
+      })
+    }
+  }
 });
 
 $(function() {
